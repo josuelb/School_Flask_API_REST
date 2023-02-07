@@ -30,6 +30,5 @@ def delete_alunos(cpf):
     for i in d:
         if i['cpf'] == int(cpf):
             dado = i
-            print(dado)
 
     my_cursor.execute(f'DELETE FROM alunos WHERE id={dado["id"]}')
