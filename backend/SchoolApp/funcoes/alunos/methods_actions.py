@@ -1,4 +1,4 @@
-from db.db_action import *
+from db.db_connection import *
 
 
 def response_alunos():
